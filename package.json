@@ -1,0 +1,31 @@
+{
+  "name": "@peersky/next-web3-chakra",
+  "version": "0.0.2",
+  "description": "Web3 enabled react components made for nextjs and chakra ui",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "Peersky",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.7.14",
+    "@types/react": "^18.0.18"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.9",
+    "@chakra-ui/react": "^2.3.1",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@types/uuid": "^8.3.4",
+    "framer-motion": "^7.2.1",
+    "next": "^12.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
+    "uuid": "^8.3.2",
+    "web3": "^1.7.5"
+  }
+}
